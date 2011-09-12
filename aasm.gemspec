@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "alexrevin-aasm_numerical/version"
 
 Gem::Specification.new do |s|
-  s.name        = "aasm"
+  s.name        = "alexrevin-aasm_numerical"
   s.version     = AASM::VERSION
   s.authors     = ["Scott Barron", "Scott Petersen", "Travis Tilley", "Thorsten Böttger", "Alex Revin"]
   s.email       = %q{scott@elitists.net, ttilley@gmail.com alex@jaralex.ee}
