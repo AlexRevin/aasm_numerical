@@ -16,7 +16,7 @@ end
 task :default => :test
 
 require 'rdoc/task'
-require 'aasm/version'
+require 'alexrevin-aasm_numerical/version'
 require 'sdoc'
 
 Rake::RDocTask.new do |rdoc|
