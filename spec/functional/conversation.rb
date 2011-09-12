@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '..', '..', 'lib', 'aasm')
+require File.join(File.dirname(__FILE__), '..', '..', 'lib', 'alexrevin-aasm_numerical')
 
 class Conversation
   include AASM

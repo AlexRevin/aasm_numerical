@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "aasm/version"
+require "alexrevin-aasm_numerical/version"
 
 Gem::Specification.new do |s|
   s.name        = "aasm"
   s.version     = AASM::VERSION
-  s.authors     = ["Scott Barron", "Scott Petersen", "Travis Tilley", "Thorsten Böttger"]
-  s.email       = %q{scott@elitists.net, ttilley@gmail.com}
+  s.authors     = ["Scott Barron", "Scott Petersen", "Travis Tilley", "Thorsten Böttger", "Alex Revin"]
+  s.email       = %q{scott@elitists.net, ttilley@gmail.com alex@jaralex.ee}
   s.homepage    = %q{http://rubyist.github.com/aasm/}
   s.summary     = %q{State machine mixin for Ruby objects}
   s.description = %q{AASM is a continuation of the acts as state machine rails plugin, built for plain Ruby objects.}
